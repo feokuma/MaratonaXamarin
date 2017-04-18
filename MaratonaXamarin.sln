@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaratonaXamarin.AndroidApp", "MaratonaXamarin.AndroidApp\MaratonaXamarin.AndroidApp.csproj", "{F55ABCA2-19F5-4D37-A211-F41967ED2968}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaratonaXamarin.Shared", "MaratonaXamarin.Shared\MaratonaXamarin.Shared.csproj", "{D254C4D4-9AE7-4653-BA5C-62814517F2A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,11 @@ Global
 		{F55ABCA2-19F5-4D37-A211-F41967ED2968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F55ABCA2-19F5-4D37-A211-F41967ED2968}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F55ABCA2-19F5-4D37-A211-F41967ED2968}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D254C4D4-9AE7-4653-BA5C-62814517F2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D254C4D4-9AE7-4653-BA5C-62814517F2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D254C4D4-9AE7-4653-BA5C-62814517F2A0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D254C4D4-9AE7-4653-BA5C-62814517F2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D254C4D4-9AE7-4653-BA5C-62814517F2A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
