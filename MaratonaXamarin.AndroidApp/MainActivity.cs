@@ -22,18 +22,28 @@ namespace MaratonaXamarin.AndroidApp
 
             button.Click += async (sender, e) =>
             {
-                var api = new UserApi();
-                var users = await api.ListAsync(new Developer
+                try
                 {
-                    Id = Guid.NewGuid().ToString(),
-                    Name = "Angelo",
-                    Email = "angelo@angelo.com",
-                    State = "SP",
-                    City = "Carapicuiba"
-                });
 
-                listview.Adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItemSingleChoice,
-                    users.OrderBy(y => y).Select(x => $"{x.Id} { x.Name}").ToArray());
+
+                    var api = new UserApi();
+
+                    var users = await api.ListAsync(new Developer
+                    {
+                        Id = Guid.NewGuid().ToString(),
+                        Name = "Angelo",
+                        Email = "angelo@angelo.com",
+                        State = "SP",
+                        City = "Carapicuiba"
+                    });
+
+                    listview.Adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItemSingleChoice,
+                        users.OrderBy(y => y.Name).Select(x => $"{x.Id} { x.Name}").ToArray());
+                }
+                catch(Exception ex)
+                {
+                    string s = ex.Message;
+                }
             };
         }
     }

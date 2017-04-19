@@ -17,7 +17,7 @@ namespace MaratonaXamarin.Shared
         }
 
         public async Task<List<Users>> ListAsync(Developer developer)
-        {
+        {  
             var users = await _client.InvokeApiAsync<Developer, List<Users>>("monkeys", developer);
             return users;
         }
