@@ -24,8 +24,6 @@ namespace MaratonaXamarin.AndroidApp
             {
                 try
                 {
-
-
                     var api = new UserApi();
 
                     var users = await api.ListAsync(new Developer

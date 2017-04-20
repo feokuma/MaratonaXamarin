@@ -25,7 +25,7 @@ namespace MaratonaXamarin.iOSApp
 			{
 				var api = new UserApi();
 
-				var users = await api.ListAsync(new Shared.Developer
+				var users = await api.ListAsync(new Developer
 				{
 					Id = Guid.NewGuid().ToString(),
 					Name = "Angelo",

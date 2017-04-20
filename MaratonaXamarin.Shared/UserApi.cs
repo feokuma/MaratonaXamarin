@@ -13,7 +13,7 @@ namespace MaratonaXamarin.Shared
 
         public UserApi()
         {
-            _client = new MobileServiceClient("http://192.168.1.231");//"http://hellomonkeys.azurewebsites.net");
+            _client = new MobileServiceClient("http://hellomonkeys.azurewebsites.net");//"http://192.168.1.231");
         }
 
         public async Task<List<Users>> ListAsync(Developer developer)

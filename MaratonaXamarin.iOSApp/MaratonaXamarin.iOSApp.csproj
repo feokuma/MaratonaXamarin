@@ -129,16 +129,16 @@
     <Content Include="Entitlements.plist" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MaratonaXamarin.Shared\MaratonaXamarin.Shared.csproj">
-      <Project>{C61060A1-47A7-4749-80AC-3800273D8FA0}</Project>
-      <Name>MaratonaXamarin.Shared</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <NativeReference Include="..\MaratonaXamarin.Shared">
       <Kind>Static</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MaratonaXamarin.Shared\MaratonaXamarin.Shared.csproj">
+      <Project>{c61060a1-47a7-4749-80ac-3800273d8fa0}</Project>
+      <Name>MaratonaXamarin.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

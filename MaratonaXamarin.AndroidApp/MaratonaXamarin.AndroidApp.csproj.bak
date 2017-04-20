@@ -16,7 +16,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -98,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MaratonaXamarin.Shared\MaratonaXamarin.Shared.csproj">
-      <Project>{c61060a1-47a7-4749-80ac-3800273d8fa0}</Project>
+      <Project>{C61060A1-47A7-4749-80AC-3800273D8FA0}</Project>
       <Name>MaratonaXamarin.Shared</Name>
     </ProjectReference>
   </ItemGroup>
